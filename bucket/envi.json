@@ -1,0 +1,31 @@
+{
+    "version": "1.0.10",
+    "description": "A secure tool for managing environment variables with GitHub Gists",
+    "homepage": "https://github.com/dexterity-inc/envi",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.9/envi-windows-amd64.zip",
+            "hash": "",
+            "bin": "envi.exe"
+        },
+        "arm64": {
+            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.9/envi-windows-arm64.zip",
+            "hash": "",
+            "bin": "envi.exe"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/dexterity-inc/envi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dexterity-inc/envi/releases/download/v$version/envi-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/dexterity-inc/envi/releases/download/v$version/envi-windows-arm64.zip"
+            }
+        }
+    }
+}
