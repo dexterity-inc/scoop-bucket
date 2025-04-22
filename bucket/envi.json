@@ -1,19 +1,19 @@
 {
-    "version": "1.0.15",
+    "version": "1.0.16",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.15/envi-windows-amd64.zip",
+            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.16/envi-windows-amd64.zip",
             "bin": [
                 "envi.exe"
             ],
-            "hash": "b027fb7d7636ae2f84ddc278df05729b942490927cd235ccf87f17577109b278"
+            "hash": "00c305cc29f9c4cf7f17964611c32c1ef9e0413b69f91ca1e7fb3f19e6b3f1f2"
         },
         "arm64": {
-            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.15/envi-windows-arm64.zip",
+            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.16/envi-windows-arm64.zip",
             "bin": [
                 "envi.exe"
             ],
-            "hash": "e1502bbf447874bee88e1173e24ca1a6edc53248131d6962f4d3d39799ee082f"
+            "hash": "8d65c5747f2131e20d0394fc92c315b9f4f899b6f61b8cc175ac8dd5822dd5fb"
         }
     },
     "homepage": "https://github.com/dexterity-inc/envi",
