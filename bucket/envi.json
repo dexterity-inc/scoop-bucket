@@ -1,31 +1,22 @@
 {
     "version": "1.0.10",
-    "description": "A secure tool for managing environment variables with GitHub Gists",
-    "homepage": "https://github.com/dexterity-inc/envi",
-    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.9/envi-windows-amd64.zip",
-            "hash": "",
-            "bin": "envi.exe"
+            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.10/envi-windows-amd64.zip",
+            "bin": [
+                "envi.exe"
+            ],
+            "hash": "bfa7c756489cd442dfd41eb9a75f334c62d88e454e80a941f159161ce2b8d8e8"
         },
         "arm64": {
-            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.9/envi-windows-arm64.zip",
-            "hash": "",
-            "bin": "envi.exe"
+            "url": "https://github.com/dexterity-inc/envi/releases/download/v1.0.10/envi-windows-arm64.zip",
+            "bin": [
+                "envi.exe"
+            ],
+            "hash": "521340824592627523637ee406a93427d84b710cd71cd27a43a6e35a66fdb076"
         }
     },
-    "checkver": {
-        "github": "https://github.com/dexterity-inc/envi"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/dexterity-inc/envi/releases/download/v$version/envi-windows-amd64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/dexterity-inc/envi/releases/download/v$version/envi-windows-arm64.zip"
-            }
-        }
-    }
+    "homepage": "https://github.com/dexterity-inc/envi",
+    "license": "MIT",
+    "description": "A secure tool for managing environment variables with GitHub Gists"
 }
